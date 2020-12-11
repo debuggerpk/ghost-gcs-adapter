@@ -1,4 +1,4 @@
-import { GoogleCloudStorageAdapter } from './lib/google-cloud-storage-adapter';
+import { GoogleCloudStorageAdapter } from './lib/gcs';
 
 // eslint-disable-next-line functional/immutable-data
 module.exports = GoogleCloudStorageAdapter;

@@ -1,6 +1,6 @@
 {
   "name": "@maher.pk/ghost-gcs-adapter",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Google Cloud Storage Adapter for Ghost v3",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

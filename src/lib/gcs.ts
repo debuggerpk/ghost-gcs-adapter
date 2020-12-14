@@ -50,7 +50,7 @@ export class GoogleCloudStorageAdapter extends StorageBase {
 
     await this._bucket.upload(image.path, uploadOptions);
 
-    return this._storageURL + destination;
+    return `${this._storageURL}/${destination}`;
   }
 
   serve() {

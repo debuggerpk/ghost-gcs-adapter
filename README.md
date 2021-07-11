@@ -14,10 +14,10 @@ cd [your/ghost/root/directory]
 mkdir -p content/adapters/storage/gcs
 
 # No need for --save as we will move the content to a different folder
-npm install @maher.pk/ghost-v3-google-storage
+npm install @maher.pk/ghost-gcs-adapter
 
 # Move the GCS storage adapter to the correct location so Ghost can find it
-mv node_modules/@maher.pk/ghost-v3-google-storage/* content/adapters/storage/gcs/
+mv node_modules/@maher.pk/ghost-gcs-adapter/* content/adapters/storage/gcs/
 ```
 
 Note: We named the storage adapter **gcs**; it's simpler to work with.

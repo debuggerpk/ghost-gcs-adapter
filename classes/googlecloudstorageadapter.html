@@ -66,6 +66,17 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Google Cloud Storage Adapter for Ghost</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>export</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -100,14 +111,15 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#_bucket" class="tsd-kind-icon">_bucket</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#_storage" class="tsd-kind-icon">_storage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#_url" class="tsd-kind-icon">_url</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#config" class="tsd-kind-icon">config</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#_storageurl" class="tsd-kind-icon">_storageURL</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#bucket" class="tsd-kind-icon">bucket</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><a href="googlecloudstorageadapter.html#url" class="tsd-kind-icon">url</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -139,7 +151,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.__constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L21">src/lib/gcs.ts:21</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L27">src/lib/gcs.ts:27</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -157,21 +169,21 @@
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
 					<a name="_bucket" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> _bucket</h3>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _bucket</h3>
 					<div class="tsd-signature tsd-kind-icon">_bucket<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Bucket</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L21">src/lib/gcs.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L26">src/lib/gcs.ts:26</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
-					<a name="_storage" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> _storage</h3>
-					<div class="tsd-signature tsd-kind-icon">_storage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Storage</span></div>
+					<a name="_url" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _url</h3>
+					<div class="tsd-signature tsd-kind-icon">_url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L20">src/lib/gcs.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L27">src/lib/gcs.ts:27</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -181,27 +193,115 @@
 					<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <a href="../globals.html#config" class="tsd-signature-type">Config</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L23">src/lib/gcs.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L29">src/lib/gcs.ts:29</a></li>
 						</ul>
 					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
 				<h2>Accessors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-private">
-					<a name="_storageurl" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _storageURL</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> _storageURL<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+					<a name="bucket" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> bucket</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> bucket<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Bucket</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> bucket<span class="tsd-signature-symbol">(</span>_bucket<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Bucket</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L33">src/lib/gcs.ts:33</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L47">src/lib/gcs.ts:47</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the bucket</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Bucket</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L57">src/lib/gcs.ts:57</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the bucket</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>_bucket: <span class="tsd-signature-type">Bucket</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+					<a name="url" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> url</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> url<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> url<span class="tsd-signature-symbol">(</span>_url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L69">src/lib/gcs.ts:69</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the url of the bucket</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L80">src/lib/gcs.ts:80</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the url of the bucket. If domain is not configured, it will use the default otherwise it will use the provided
+									domain</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>_url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -219,19 +319,33 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.delete</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L73">src/lib/gcs.ts:73</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L155">src/lib/gcs.ts:155</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Delete file from Google Cloud Storage</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>fileName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>name of the file</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> targetDir: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>{Promise<boolean>} true if file is deleted</p>
 						</li>
 					</ul>
 				</section>
@@ -246,19 +360,33 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.exists</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L60">src/lib/gcs.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L126">src/lib/gcs.ts:126</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Check if file exists in Google Cloud Storage</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>fileName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>name of the file</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> targetDir: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>{Promise<boolean>} true if file exists</p>
 						</li>
 					</ul>
 				</section>
@@ -348,16 +476,30 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.read</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L68">src/lib/gcs.ts:68</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L142">src/lib/gcs.ts:142</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Read file from Google Cloud Storage</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>options: <a href="../interfaces/googlecloudstorageadapter.readoptions.html" class="tsd-signature-type">ReadOptions</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>options to read file</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>{Promise<Buffer>} the file content</p>
 						</li>
 					</ul>
 				</section>
@@ -372,19 +514,33 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.save</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L39">src/lib/gcs.ts:39</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L95">src/lib/gcs.ts:95</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Save image to Google Cloud Storage</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>GoogleCloudStorageAdapter</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>image: <a href="../interfaces/googlecloudstorageadapter.image.html" class="tsd-signature-type">Image</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>image to save</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> targetDir: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>{Promise<string>} the url of the saved image</p>
 						</li>
 					</ul>
 				</section>
@@ -399,7 +555,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides StorageBase.serve</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/2978aa8/src/lib/gcs.ts#L56">src/lib/gcs.ts:56</a></li>
+									<li>Defined in <a href="https://github.com/debuggerpk/ghost-gcs-adapter/blob/429a9db/src/lib/gcs.ts#L114">src/lib/gcs.ts:114</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">(Anonymous function)</span></h4>
@@ -436,13 +592,16 @@
 								<a href="googlecloudstorageadapter.html#_bucket" class="tsd-kind-icon">_bucket</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
-								<a href="googlecloudstorageadapter.html#_storage" class="tsd-kind-icon">_storage</a>
+								<a href="googlecloudstorageadapter.html#_url" class="tsd-kind-icon">_url</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 								<a href="googlecloudstorageadapter.html#config" class="tsd-kind-icon">config</a>
 							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-private">
-								<a href="googlecloudstorageadapter.html#_storageurl" class="tsd-kind-icon">_storageURL</a>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+								<a href="googlecloudstorageadapter.html#bucket" class="tsd-kind-icon">bucket</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+								<a href="googlecloudstorageadapter.html#url" class="tsd-kind-icon">url</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="googlecloudstorageadapter.html#delete" class="tsd-kind-icon">delete</a>
@@ -489,10 +648,11 @@
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
 			</ul>
 		</div>
 	</div>
